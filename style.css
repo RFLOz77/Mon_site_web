@@ -1,0 +1,190 @@
+body {
+    background: radial-gradient(rgb(142, 197, 220), rgb(113, 203, 203), rgb(192, 231, 241));
+    margin: 90px;
+    margin: 0;
+    padding-top: 80px;
+    font-family: cursive;
+}
+
+h1 { padding: 20px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 85px;
+}
+
+
+header {
+    background: linear-gradient(rgb(7, 62, 78),rgb(19, 99, 121), rgba(21, 133, 133, 0.921), rgba(22, 163, 163, 0.921));
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    bottom: 85%;
+}
+
+footer {
+    background: linear-gradient(rgb(7, 80, 100), rgba(21, 155, 204, 0.921));
+}
+
+button {
+    color: black;
+    padding: 8px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background: linear-gradient(rgb(7, 70, 125), rgba(36, 181, 204, 0.712));
+    color: black;
+    border: 2px solid #0e0f0e;
+    border-radius: 7%;
+    font-family: "Gill Sans", sans-serif;
+}
+
+button:hover {
+    padding: 8px 13px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 1px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background: linear-gradient(rgb(5, 52, 96), rgba(12, 79, 161, 0.738));
+    color: rgb(254, 254, 254);
+    border: 2px solid #000000;
+    border-radius: 7%;
+}
+
+h2 {
+    color: rgb(14, 1, 1);
+    font-size: 55px;
+}
+
+h3 {
+    background: linear-gradient(rgb(9, 57, 105), rgba(18, 139, 163, 0.844));
+    border-radius: 15%;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 28px;
+}
+
+img {
+    border-radius: 5%;
+
+}
+
+.sommaire {
+    color: black;
+}
+
+.liste {
+    color: black;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.Sommaire2 {
+    color: black;
+    justify-content: center;
+    background-color: #00000000;
+}
+
+.bare {
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    background: linear-gradient(to right, black, black, rgb(202, 194, 194));
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    border-radius: 40%;
+    margin-right: 5%;
+}
+.button2 {
+    background: linear-gradient(rgb(13, 68, 117), rgba(32, 142, 170, 0.805)); 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 30px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    font-family: "Gill Sans", sans-serif;
+    border: 3px solid #0e0f0e;
+  }
+  
+.button2:hover {
+    background: linear-gradient(rgb(24, 147, 161), rgba(61, 172, 172, 0.763)); 
+    color: rgb(7, 43, 64); 
+    border: none; 
+    padding: 15px 25px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 40px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    border: 3px solid #0e0f0e;
+
+}
+
+/* Style pour un élément avec un effet brillant */
+.brillant,h3{
+    background: linear-gradient(45deg, #0f5285, #2c8c9be9);; /* Dégradé linéaire en diagonale */
+    box-shadow: 0 0 10px rgb(17, 56, 86); /* Ombre pour renforcer l'effet brillant */
+    border-radius: 50px; /* Coins arrondis */
+    padding: 10px; /* Espacement interne */
+    
+    /*width: 200px; /* Largeur de l'élément */
+    /*height: 150px; /* Hauteur de l'élément */
+  }
+    
+ 
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Met la vidéo en arrière-plan */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+   
+}
+
+#background-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    z-index: 1; /* Met votre contenu au premier plan */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white; /* Ajustez la couleur du texte pour qu'elle soit visible sur la vidéo */
+}
+ 
+.conteneur {
+    width: 180px;  
+    height: 180px; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: rgba(195, 221, 238, 0.712);
+    border-radius: 10%;
+  }
+
